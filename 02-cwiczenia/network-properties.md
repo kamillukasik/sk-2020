@@ -19,7 +19,7 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 10.0.15.4 | |
+| IP - address  | 10.0.15.4 | ip addr add 10.0.15.4/24 dev eth0 |
 | MASKA  | /24 (255.255.255.0) | |
 |   |  | |
 | PC 2  |  | |
@@ -28,8 +28,9 @@ Wejściowe parametry sieci
 
 Weryfikacja połączenia
 
-Polecenie
-```
+Polecenie 
+``` 
+ping
 ```
 
 Efekt
@@ -68,12 +69,12 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  |172.16.200.201  | |
+| MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  |172.16.200.202  | |
+| MASKA  |255.255.255.0  | |
 
 Weryfikacja połączenia
 
