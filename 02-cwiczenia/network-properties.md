@@ -101,5 +101,5 @@ Dlaczego? Jak? Co? :)
 | DOWN -> Włączenie interfejsu sieciowego| ip link set eth0 up| |
 | Sprawdzenie obecnych parametrów |cat /etc/network/interfaces | |
 | lista wszystkich interfejsów | | |
-| Które interfejsy jakie porty słuchają | netstat | |
+| Które interfejsy jakie porty słuchają | netstat -l | wszytskie porty ktore beda sluchaly |
 
