@@ -31,6 +31,8 @@
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
 
+Uświadomomienie tego, jak to wsyztsko co klikamy na codzień działa. Podstawowa wiedza na temat zabezpieczenia swojej sieci domowej.
+Zagłębienie się w tematykę sieci i poznanie nowych, ciekawych rzeczy.
 
 ### Charakterystyka systemu operacyjnego
 
