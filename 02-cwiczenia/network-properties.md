@@ -43,8 +43,8 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 192.168.10.10 | |
-| MASKA  | 255.255.255.0 | |
+| IP - address  | 192.168.10.10 | address |
+| MASKA  | 255.255.255.0 | netmask |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | 192.168.10.11 | |
@@ -57,6 +57,7 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping
 ```
 
 Efekt
@@ -95,10 +96,10 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
+| Lokalizacja pliku z konfiguracją sieci|/etc/network/interfaces | |
+| UP -> Wyłączenie interfejsu sieciowego| ip link set eth0 down| |
+| DOWN -> Włączenie interfejsu sieciowego| ip link set eth0 up| |
+| Sprawdzenie obecnych parametrów |cat /etc/network/interfaces | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
 
